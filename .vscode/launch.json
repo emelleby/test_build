@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "hallo-world",
+      "gen": "GEN_2",
+      "revision": "hallo-world-00001-cup",
+      "entryPoint": "hello_https",
+      "testInput": "main.py",
+      "region": "europe-north1",
+      "runtime": "python310"
+    }
+  ]
+}

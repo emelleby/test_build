@@ -1,7 +1,7 @@
 import functions_framework
 
 @functions_framework.http
-def hello_http(request):
+def hello_https(request):
    """HTTP Cloud Function.
    Args:
        request (flask.Request): The request object.
@@ -20,4 +20,4 @@ def hello_http(request):
        name = request_args['name']
    else:
        name = 'World'
-   return f'Hallo {name}!'
+   return f'Hallo der {name}!'
