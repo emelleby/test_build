@@ -6,7 +6,6 @@
       "request": "launch",
       "functionName": "hallo-world",
       "gen": "GEN_1",
-      "revision": "hallo-world-00001-qib",
       "entryPoint": "hello_https",
       "region": "europe-west3",
       "runtime": "python310",
