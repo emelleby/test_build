@@ -4,7 +4,7 @@ steps:
       - gcloud
       - functions
       - deploy
-      - hallo_world
+      - hallo-world
       - --region=europe-north1
       - --source=.
       - --trigger-http
