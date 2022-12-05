@@ -8,8 +8,9 @@
       "gen": "GEN_1",
       "revision": "hallo-world-00001-qib",
       "entryPoint": "hello_https",
-      "region": "europe-north1",
-      "runtime": "python310"
+      "region": "europe-west3",
+      "runtime": "python310",
+      "testInput": ""
     }
   ]
 }

@@ -5,7 +5,7 @@ steps:
       - functions
       - deploy
       - hello_https
-      - --region=europe-north1
+      - --region=europe-west3
       - --source=.
       - --trigger-http
       - --runtime=python310
@@ -15,7 +15,7 @@ steps:
       - --max-instances=1
       - --security-level=secure-always
       - --ingress-settings=all
-      - --no-allow-unauthenticated
+      - --allow-unauthenticated
       - --service-account=test-functions@emelleby.iam.gserviceaccount.com
 options:
   logging: CLOUD_LOGGING_ONLY
