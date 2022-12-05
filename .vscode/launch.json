@@ -9,7 +9,8 @@
       "entryPoint": "hello_https",
       "region": "europe-west3",
       "runtime": "python310",
-      "testInput": ""
+      "testInput": "",
+      "revision": "1"
     }
   ]
 }
